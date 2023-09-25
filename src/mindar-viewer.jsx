@@ -13,7 +13,7 @@ export default () => {
             arSystem.start(); // start AR
         });
         return () => {
-            arSystem.stop();
+            // arSystem.stop();
         }
     }, []);
 

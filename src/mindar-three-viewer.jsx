@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import {MindARThree} from 'mind-ar/dist/mindar-image-three.prod.js';
 import * as THREE from 'three';
 
+// eslint-disable-next-line react/display-name
 export default () => {
     const containerRef = useRef(null);
 
